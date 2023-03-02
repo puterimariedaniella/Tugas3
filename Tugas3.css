@@ -1,0 +1,42 @@
+.header .judul{
+    text-align:center;
+    padding: 20px;
+    font-family: cursive/*Brush Script MT*/;
+    color: LightSalmon;
+}
+
+.header ul li{
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#content {
+    text-align: left;
+    color: black;
+}
+
+#matakuliah{
+    font-family: Comic Sans MS;
+    font-size: 13px;
+    border-collapse: collapse;
+    width:50%;
+}
+
+#matakuliah td, #matakuliah th{
+    border: 1px solid #ddd;
+    padding: 5px; 
+}
+
+#matakuliah tr:nth-child(even){background-color: #f2f2f2;}
+
+#matakuliah tr:hover {background-color:gainsboro;}
+
+#matakuliah th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color:lightsteelblue;
+    color:azure;
+}
