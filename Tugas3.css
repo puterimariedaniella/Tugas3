@@ -8,7 +8,7 @@ body{
     border-color:lemonchiffon;
     width: 830px;
     margin: auto;
-    background-color: whitesmoke;
+    background-color:whitesmoke;
 }
 
 .header .judul{
@@ -72,8 +72,12 @@ body{
 
 .footer {
     background-color: grey;
+    width: 812px;
+    margin: auto;
     font-size: 12px;
     color:black;
     text-align: center;
     padding: 9px;
+    border: groove;
+    border-color:lemonchiffon;
 }
